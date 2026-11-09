@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2">
+  <!-- Vapor -->
+  <path d="M6 3c0 2-2 3-2 5" />
+  <path d="M10 2c0 2-2 3-2 5" />
+  <path d="M14 3c0 2-2 3-2 5" />
+  <!-- Xícara -->
+  <path d="M18 8h1a4 4 0 0 1 0 8h-1" />
+  <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z" />
+  <!-- Pires -->
+  <line x1="2" y1="22" x2="22" y2="22" />
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2">
+  <!-- Tampa do Copo -->
+  <path d="M7 6h10l-1-4H8L7 6z" />
+  <line x1="6" y1="6" x2="18" y2="6" />
+  <!-- Corpo do Copo -->
+  <path d="M8 8l1 13h6l1-13H8z" />
+  <!-- Luva de Proteção (Faixa central) -->
+  <path d="M8.5 12h7" />
+  <path d="M9 16h6" />
+</svg>
