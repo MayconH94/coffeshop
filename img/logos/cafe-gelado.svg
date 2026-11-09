@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2">
+  <!-- Canudo -->
+  <path d="M15 1l-3 6" />
+  <line x1="15" y1="1" x2="18" y2="1" />
+  <!-- Tampa Domed (Cúpula) -->
+  <path d="M7 7c0-2 2-3 5-3s5 1 5 3" />
+  <line x1="7" y1="7" x2="17" y2="7" />
+  <!-- Copo cônico alto -->
+  <path d="M8 7l1.5 14h5L16 7H8z" />
+  <!-- Círculo da Logo centralizado -->
+  <circle cx="12" cy="14" r="2.5" />
+  <!-- Gelo interno sutil -->
+  <rect x="10.5" y="9.5" width="2" height="2" rx="0.3" opacity="0.6" />
+</svg>
