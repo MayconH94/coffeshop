@@ -82,7 +82,7 @@
                 <h3>Coldbrew</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 <div class="card__footer">
-                <span>R$. 27,00</span>
+                <span>R$ 27,00</span>
                 <button>Comprar agora</button>
             </article>
 
@@ -192,8 +192,15 @@
         <h2>Junte-se a nós e ganhe 15% de desconto!</h2>
         <p>Assine a nossa newsletter para receber 15% de desconto.</p>
 
-        <form class="newsletter_form">
-            <input type="email" placeholder="Seu e-mail" required>
+        <form class="newsletter__form">
+            <div class="newsletter__field">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="2" y="4" width="20" height="16" rx="2"/>
+                    <path d="m22 7-10 6L2 7"/>
+                </svg>
+                <input type="email" placeholder="Seu e-mail" required>
+            </div>
+
             <button type="submit">Assinar</button>
         </form>
     </section>
@@ -221,12 +228,26 @@
       <p>contato@coffeshop.com</p>
     </div>
 
-    <div class="footer__social">
-      <h4>Redes sociais</h4>
-      <div class="footer__icons">
-        <a href="#" aria-label="Instagram">IG</a>
-        <a href="#" aria-label="Facebook">FB</a>
-        <a href="#" aria-label="X">X</a>
+    <div class="footer__icons">
+        <a href="#" aria-label="Instagram" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="2" y="2" width="20" height="20" rx="5"/>
+      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+        </svg>
+    </a>
+
+  <a href="#" aria-label="Facebook" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+        </svg>
+  </a>
+
+  <a href="#" aria-label="X" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+        </svg>
+        </a>
       </div>
     </div>
 

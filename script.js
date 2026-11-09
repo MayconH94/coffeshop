@@ -11,7 +11,7 @@ images.forEach((img) => {
   });
 });
 
-const form = document.querySelector(".newsletter_form");
+const form = document.querySelector(".newsletter__form");
 
 form.addEventListener("submit", (event) => {
     event.preventDefault();
